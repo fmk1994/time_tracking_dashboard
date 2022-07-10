@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project is available online: https://fmk1994.github.io/time_tracking_dashboard/
 
 ## Available Scripts
 
