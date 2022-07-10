@@ -1,0 +1,16 @@
+.tilesWrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 24px;
+}
+@media (max-width: 900px) {
+	.tilesWrapper {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+@media (max-width: 655px) {
+	.tilesWrapper {
+		gap: 12px;
+		grid-template-columns: 1fr;
+	}
+}

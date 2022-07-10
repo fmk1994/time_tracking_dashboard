@@ -1,0 +1,107 @@
+.userTile {
+	width: 200px;
+	height: 424px;
+	border-radius: 12px;
+	overflow: hidden;
+	background-color: hsl(235, 46%, 20%);
+	margin-right: 24px;
+}
+.sectionPerson {
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	background-color: hsl(246, 80%, 60%);
+	height: 68%;
+	border-radius: 12px;
+}
+.sectionPerson div {
+	display: flex;
+	flex-direction: column;
+}
+.sectionPerson img {
+	margin-bottom: 32px;
+	width: 68px;
+	height: 68px;
+	border: 2px solid white;
+	border-radius: 50%;
+}
+.sectionPerson span:first-of-type {
+	color: hsl(236, 100%, 87%);
+	font-size: 12px;
+}
+.personName {
+	font-weight: 300;
+	font-size: 36px;
+}
+.sectionTime {
+	font-size: 16px;
+	color: hsl(235, 45%, 61%);
+	display: flex;
+	flex-direction: column;
+	padding-top: 16px;
+	padding-left: 32px;
+}
+
+.button {
+	background-color: transparent;
+	border: none;
+	color: hsl(236, 100%, 87%);
+	line-height: 32px;
+	text-align: start;
+}
+.button:hover {
+	cursor: pointer;
+	color: white;
+	cursor: pointer;
+}
+
+.active {
+	color: white;
+}
+@media (max-width: 900px) {
+	.userTile {
+		height: 648px;
+	}
+	.sectionPerson {
+		height: 60%;
+		justify-content: center;
+	}
+	.sectionPerson img {
+		width: 120px;
+		height: 120px;
+		margin: 0;
+	}
+}
+@media (max-width: 655px) {
+	.userTile {
+		margin: 0;
+		margin-bottom: 16px;
+		height: 150px;
+		width: 320px;
+	}
+}
+@media (max-width: 655px) {
+	.sectionPerson {
+		padding: 16px;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.sectionPerson img {
+		margin: 0;
+		width: 60px;
+		height: 60px;
+		margin-right: 12px;
+	}
+	.personName {
+		font-weight: 300;
+		font-size: 24px;
+	}
+	.sectionTime {
+		padding: 8px;
+		padding-top: 12px;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+}

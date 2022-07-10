@@ -1,0 +1,16 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.appWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@media (max-width: 655px) {
+	.appWrapper {
+		display: flex;
+		flex-direction: column;
+	}
+}
